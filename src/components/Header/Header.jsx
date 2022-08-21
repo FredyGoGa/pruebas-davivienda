@@ -26,9 +26,9 @@ export default function Header() {
     
     
     <div className="sectionUser">
-   <div className="nameUser">
+   <span className="nameUser">
     CRISTIAN DAVID ARIAS CORREA
-   </div>
+   </span>
    
     
     </div>
