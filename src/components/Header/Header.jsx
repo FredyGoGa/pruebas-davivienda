@@ -3,14 +3,23 @@ import React from 'react'
 import  "./header.css";
 
 export default function Header() {
+
+
   return (
-    <div className='header'>
-
-    <div className="iconsLeft">
-     
+    <>
+    <div className='sectionHeader'>
+      
     </div>
-    iconos de la parte superior izquierda
+    
+    
+    
+    <div className="sectionUser">hola</div></>
+    
+   
 
-    </div>
+  
+    
+
+    
   )
 }
