@@ -1,17 +1,44 @@
 .ItemBenefit{
     height: 67%;
     background-color:#EAEAEA;
+    
 
 }
 .Image{
-    float: left;
+   
+    
+    float:left ;
 }
 .Text{
+    
     float: left;
+    font-size: 14px;
+    float:inline-end;
+  
+    
 }
 .imageBenefitPension{
     height: 30%;
     width: 8%;
     padding-left: 5%;
+    float: left;
 
+}
+.imagePhoneDollar{
+    height: 33%;
+    width: 10%;
+    padding-left: 11%;
+    float: left;
+}
+.imageBalanceDollar{
+    height: 10%;
+    width: 6%;
+    padding-left: 5%;
+    float: left;
+}
+.finalBalanceDollar{
+    height: 10%;
+    width: 6%;
+    padding-left: 5%;
+    float: left;
 }
