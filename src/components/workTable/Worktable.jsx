@@ -11,7 +11,7 @@ export default function Worktable() {
   return (
    <section className="worktable">
 
-   <Header userName= "FREDY GONZALEZ GARCIA" title="Prueba" description="FormulariO" />
+   <Header userName= "FREDY GONZALEZ GARCIA" title="Prueba" description="Beneficios y Características" />
    <ItemBenefit/>
 
    </section>
