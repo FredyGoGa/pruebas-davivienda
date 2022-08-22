@@ -27,15 +27,19 @@ export default function Header(props) {
           <div className="nameUser">
             <p className="p">{userName}</p>
           </div>
-          <div className = "sectionSelector">
-            <div >
-              <img className='menuIcon'src={  iconoMenu }/>
-            <div className="sectionName">
-              <p className='sectionTitle'>{title}</p>
-              <p className='sectionDescription'>{description}</p>
+          <div >
+          <table className="sectionSelector" >
+            <tbody >
+            <tr >
+              <td width="10%"> <img className='menuIcon'src={  iconoMenu }/></td>
+              <td >
+                <p className='sectionTitle'>{title}</p>
+                <p className='sectionDescription'>{description}</p>
+              </td>
+            </tr>
+            </tbody>
+          </table>
 
-          </div>
-          </div>
 
 
           </div>
