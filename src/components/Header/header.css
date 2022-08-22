@@ -1,16 +1,36 @@
 .sectionHeader{
-    
-    width: 100%; 
+
+    width: 100%;
     height: 9%;
     background-color: #DD141D;
     text-align: center;
 
 }
+.logo{
+    width: 67%;
+    height: 41%;
+    padding-top: 4%;
+
+
+
+
+}
+.close{
+    height:50%;
+    /* display: inline-block ;  */
+    float: right;
+    bottom: 20px;
+    padding-top: 4% ;
+    padding-right: 6%;
+
+}
 .sectionUser{
- background-color:#D9D9D9;   
+ background-color:#D9D9D9;
  width:100%;
  height:14%;
+ color: #575757;
 }
+
 .nameUser{
     display: flex;
     justify-content: center;
@@ -24,19 +44,57 @@
 
 
 }
+.p{
+    color: #575757;
+    /* background-color: black; */
+}
+.menuIcon{
+    float: left;
 
-.logo{
-    width:50%;
-    height: 75%;
-    
-    
+    width: 8%; 
+    padding-left: 3%;
+
+    justify-content:left;
+}
+.sectionName{
+    float:left;
+    padding-left: 3%;
+    vertical-align: center;
+    line-height: 3px;
+}
+.sectionSelector{
+    float:left;
+    vertical-align: top;
+}
+.sectionTitle{
+    font-size: 14px;
+    font-weight: bold;
+    color: #000000;
+}
+.sectionDescription{
+    font-size: 12px;
+    color: #000000;
+}
+.buttonBack{
+    height:35%;
+    width: 6%;
+    padding-top: 5%;
+    padding-left: 5%;
+    float: left;
+
+
 
 }
-.close{
-    height:50%;
-    /* display: inline-block ;  */
-    float: right;
-    bottom: 20px;
-    
-    
+.divButtonBack{
+    background-color:#EAEAEA;
+    height: 10%;
 }
+.textBack{
+    float: left;
+    padding-left: 2%;
+    padding-top: 1%;
+    color: #575757;
+    font-size: 18px;
+}
+
+

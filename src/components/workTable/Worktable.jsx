@@ -10,7 +10,8 @@ export default function Worktable() {
   return (
    <section className="worktable">
 
-   <Header/>
+   <Header userName= "FREDY GONZALEZ GARCIA" title="Prueba" description="FormulariO" />
+
 
    </section>
   )
