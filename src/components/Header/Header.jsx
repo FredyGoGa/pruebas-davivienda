@@ -39,17 +39,22 @@ export default function Header(props) {
             </tr>
             </tbody>
           </table>
-
-
-
-          </div>
+        </div>
 
 
     </section>
-  
-    <div className="divButtonBack">
-      <img className="buttonBack" src={  iconoatras }/>
-      <p className="textBack">Atrás</p>
+    <div >
+    <table className="divButtonBack" >
+            <tbody >
+            <tr >
+              <td width="10%"> <img className='buttonBack'src={  iconoatras }/></td>
+              <td >
+                <p className="textBack">Atrás</p>
+              </td>
+            </tr>
+            </tbody>
+          </table>
+
     </div>
 
 

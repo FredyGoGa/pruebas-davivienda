@@ -67,22 +67,22 @@
     padding-left: 3%
 }
 .buttonBack{
-    height:35%;
-    width: 6%;
-    padding-top: 5%;
-    padding-left: 5%;
-    float: left;
+    width: 75%;
+    padding-left: 3%;
+    vertical-align: top;
 }
 .divButtonBack{
     background-color:#EAEAEA;
     height: 10%;
+    padding-left: 4%;
 }
 .textBack{
     float: left;
-    padding-left: 2%;
+    padding-left: 1%;
     padding-top: 1%;
     color: #575757;
     font-size: 18px;
+    vertical-align: top
 }
 
 
