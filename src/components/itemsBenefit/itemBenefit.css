@@ -1,0 +1,17 @@
+.ItemBenefit{
+    height: 67%;
+    background-color:#EAEAEA;
+
+}
+.Image{
+    float: left;
+}
+.Text{
+    float: left;
+}
+.imageBenefitPension{
+    height: 30%;
+    width: 8%;
+    padding-left: 5%;
+
+}
