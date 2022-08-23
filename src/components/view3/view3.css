@@ -6,9 +6,9 @@
     width: 90%;
     align-content: center;
 }
-.view2{
+.view3{
     width: 375px;
-    height: 950px;
+    height: 670px;
     border: #EAEAEA 1px solid;
     background-color:#EAEAEA;
     margin-left: auto;
@@ -36,7 +36,7 @@ border-color: #7070704D;
 }
 .tablaAdelantoPension{
     background-color:#FFFFFF;
-    padding-left: 8px;
+
 }
 th{
     background-color:#575757;
@@ -50,7 +50,8 @@ th{
 .textIconTable{
     font-family: Roboto, bold;
     color:#575757;
-    padding-top: 30px;
+    padding-top: 10px;
+    padding-bottom:10px;
     background-color:#EEEEEE;
     border-radius: 8px;
     
@@ -62,14 +63,30 @@ th{
     height:42.3px;
 }
 .textResultName{
-    font-size:14;
+    font-size:14px;
     font-weight: bold;
     font-family: Roboto ;
     line-height: 0;
-    
+    padding-left: 10px;
 }
 .textResultDetails{
-    font-size:14;
+    font-size:14px;
     font-family: Roboto ;
     line-height: 0.5;
+    padding-left: 10px;
+}
+.textPlazo{
+    font-size: 14px;
+    color: #575757;
+    font-family: Roboto ;
+    padding-left: 10px;
+    font-weight: bold;
+    padding-top: 15px;
+}
+.textPlazoDetails{
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 13px;
+    color: #575757;
+    font-family: Roboto ;
 }
