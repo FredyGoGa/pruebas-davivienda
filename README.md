@@ -8,8 +8,9 @@
 
 Este repositorio contiene un proyecto en React.js el cual construye 3 vistas propuestas en la prueba técnica para el cargo Professional Frontend
 
+Vista # 1
 ![Vista número 1](/src/assets/screens/pantallazoVista1.png)
-
+Vista # 2
 ![Vista número 2](/src/assets/screens/pantallazoVista2.png)
-
+Vista # 3
 ![Vista número 3](/src/assets/screens/pantallazoVista3.png)
