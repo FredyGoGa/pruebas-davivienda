@@ -1,5 +1,6 @@
 import React from 'react'
 import Header from "../Header/Header";
+import iconogris from "../../assets/img/Grupo 172.png";
 import "./view3.css";
 
 
@@ -8,48 +9,45 @@ import "./view3.css";
 export default function View3() {
   return (
   <section className="view2">
-    <Header userName= "FREDY GONZALEZ GARCIA" title="Prueba" description="Vista 3!!!!" />
+    <Header userName= "FREDY GONZALEZ GARCIA" title="Compra de Cartera Móvil" description="Resultado" />
     <center>
       <div className="containerGeneral">
-        <p className="dataContinue" ><strong >Indique los siguientes datos para continuar con la solicitud de su adelanto de pension:</strong></p>
-
-        <form className="formClass">
-          <label>
-            <p className="questionText">¿Cual es el valor total de sus ingresos mensuales?</p>
-            <input type="text" className="inputText"/>
-          </label>
-          <label>
-            <p className="questionText">¿Cual es su actividad laboral actual?</p> </label>
-            <select name="actividadLaboral"  className="inputText"  />
-            <option value="Seleccione una opción" hidden></option>
-          <label>
-            <p className="questionText">¿Cual es el nombre de su empresa?</p>
-            <input type="text" className="inputText" />
-          </label>
-          <label>
-            <p className="questionText">¿Que tipo de contacto tiene?</p>
-            <select name="actividadLaboral"  className="inputText"  />
-            <option value="Seleccione una opción" hidden></option>
-          </label>
-          <label>
-            <p className="questionText">¿Cual es su ciudad de residencia?</p>
-            <input type="text" className="inputText" />
-          </label>
-          <label>
-            <p className="questionText">¿Cual es la dirección de su residencia?</p>
-            <input type="text" className="inputText" placeholder='Carrera 9 # 116-08, Bogotá' />
-          </label>
-          <label>
-            <p className="questionText">Si esta recibiendo ayuda de un <strong>asesor del Banco</strong>, ingrese el código del asesor</p>
-            <input type="text" className="inputText" placeholder='Opcional' />
-          </label>
-        </form>
-
+        <table className="tablaAdelantoPension">
+        <tr>
+            <th colspan="2" >Adelanto de pensión y seguro</th>
+          </tr>
+          <tr>
+            <td width=""><img className='close' src={ iconogris } alt="iconogris"/></td>
+            <td className="textIconTable">Los productos fuerosn aprobados 
+            satisfactoriamente.</td>
+          </tr>
+          <tr>
+            <td colspan="2"><p>En un plazo máximo de <strong>5 días calendario</strong>, se le informará por medio de un mensaje de texto el estado de sus productos.</p></td>
+          </tr>
+          <tr>
+            <td className="textIconTable" colspan="2">
+                <p className="textResultName">Adelanto de pensión:</p>
+                <p className="textResultDetails">Aprobado</p>  
+            </td>
+          </tr>
+          <tr>
+            <td className="textIconTable" colspan="2">
+              <p className="textResultName">Tipo de seguro:</p>
+              <p className="textResultDetails">Familiar- 106.200 mensual</p> 
+            </td>
+          </tr>
+          <tr>
+            <td className="textIconTable" colspan="2">
+              <p className="textResultName">Fecha y hora:</p>
+              <p className="textResultDetails">29/01/2020, 09:41 am</p> 
+            </td>
+          </tr>
+        </table>
       </div>
-    </center>
-    <center>
+    
     <br></br>
-    <button className="continueButton"> Continuar
+    
+    <button className="continueButton"> Finalizar
       </button></center>
   </section>
   )

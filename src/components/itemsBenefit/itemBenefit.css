@@ -1,5 +1,5 @@
 .ItemBenefit{
-    height: 67%;
+    height: 36px;
     background-color:#EAEAEA;
 }
 .Image{
@@ -12,53 +12,24 @@
 
 }
 .Text{
-    
-    
     font-size: 14px;
     vertical-align: top;
-   
-  
-    
 }
 
 .demo {
-
-    
     background-color:#EAEAEA;
     padding-left:3%;
-    
 }
 .demo td {
-   margin-top:  top;
+    margin-top:  top;
     padding:5px;
     font-size: 14px;
     color: #575757;
 }
-
-
-.imageBenefitPension{
-    height: 90%;
-    width:90%;
+.imageBenefit{
+    height: 36px;
+    width:36px;
     padding-left:0%;
-    float: left;
-
-}
-.imagePhoneDollar{
-    height: 90%;
-    width: 80%;
-    padding-left: 10%;
-    float: left;
-}
-.imageBalanceDollar{
-    height: 70%;
-    width: 75%;
-    padding-left: 7%;
-    float: left;
-}
-.finalBalanceDollar{
-    height: 70%;
-    width: 90%;
-    padding-left: 2%;
     float: left;
 }
 .footer{
@@ -70,7 +41,6 @@
     padding-right: 20%;
     justify-content: center;
     color: #575757;
-    
 }
 .containerTable{
     background-color:#EAEAEA;
