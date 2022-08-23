@@ -15,10 +15,18 @@ export default function Header(props) {
     <>
 
     <header className='sectionHeader'>
-
-        <img className='logo'src={ logo }/>
-        <img className='close'src={ close }/>
-
+    <table className="logo" >
+            <tbody >
+            <tr >
+              <td >
+                <img className='logo'src={ logo }/>
+              </td>
+              <td >
+                <img className='close'src={ close }/>
+              </td>
+            </tr>
+            </tbody>
+          </table>
     </header>
 
 

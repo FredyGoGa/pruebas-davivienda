@@ -1,27 +1,29 @@
 .sectionHeader{
 
-    width: 100%;
-    height: 9%;
+
+    height: 60px;
     background-color: #DD141D;
     text-align: center;
 }
 .logo{
-    width: 67%;
-    height: 41%;
-    padding-top: 4%;
+    width: 255px;
+    height: 30px;
+    vertical-align:top;
+    padding-left: 15px;
+    padding-right: 15px
+
 }
 .close{
-    height:50%;
-    /* display: inline-block ;  */
-    float: right;
+    height:35px;
     bottom: 20px;
-    padding-top: 4% ;
-    padding-right: 6%;
+    padding-left: 10px;
+    padding-top: 13px;
+    vertical-align:bottom;
 }
 .sectionUser{
     background-color:#D9D9D9;
-    width:100%;
-    height:14%;
+
+
     color: #575757;
 }
 .nameUser{
@@ -30,18 +32,12 @@
     font-family: Roboto ;
     font-size: 15px;
     font-weight: bold;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    text-align: left;
-    height: 40%;
 }
 .p{
     color: #575757;
-    /* background-color: black; */
 }
 .menuIcon{
-    width: 75%; 
+    width: 75%;
     padding-left: 3%;
 }
 .sectionName{
@@ -52,7 +48,9 @@
 }
 .sectionSelector{
     float:left;
-    padding-left: 3%
+    padding-left: 3%;
+    background-color: #D9D9D9;
+    height: 30px;
 }
 .sectionTitle{
     font-size: 14px;
@@ -73,8 +71,8 @@
 }
 .divButtonBack{
     background-color:#EAEAEA;
-    height: 10%;
-    padding-left: 4%;
+    height: 60px;
+    padding-left: 10px;
 }
 .textBack{
     float: left;
