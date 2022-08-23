@@ -22,16 +22,17 @@ export default function View3() {
             <input type="text" className="inputText"/>
           </label>
           <label>
-            <p className="questionText">¿Cual es su actividad laboral actual?</p>
-            <input type="text" className="inputText" placeholder='Seleccione una opción'  />
-          </label>
+            <p className="questionText">¿Cual es su actividad laboral actual?</p> </label>
+            <select name="actividadLaboral"  className="inputText"  />
+            <option value="Seleccione una opción" hidden></option>
           <label>
             <p className="questionText">¿Cual es el nombre de su empresa?</p>
             <input type="text" className="inputText" />
           </label>
           <label>
             <p className="questionText">¿Que tipo de contacto tiene?</p>
-            <input type="text" className="inputText" placeholder='Seleccione una opción' />
+            <select name="actividadLaboral"  className="inputText"  />
+            <option value="Seleccione una opción" hidden></option>
           </label>
           <label>
             <p className="questionText">¿Cual es su ciudad de residencia?</p>
@@ -45,7 +46,6 @@ export default function View3() {
             <p className="questionText">Si esta recibiendo ayuda de un <strong>asesor del Banco</strong>, ingrese el código del asesor</p>
             <input type="text" className="inputText" placeholder='Opcional' />
           </label>
-
         </form>
 
       </div>
